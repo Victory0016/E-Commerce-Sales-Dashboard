@@ -1,23 +1,24 @@
 # 📊 E-Commerce Sales Dashboard
 
 ## 📌 Table of Contents
-1. [Introduction](#1introduction)  
-2. [Dashboard Overview](#2dashboard-overview)  
-3. [Business Problem](#3business-problem)  
-4. [Objectives](#4objectives)  
-5. [Tools & Technologies Used](#5tools-technologies-used)  
-6. [Wireframing & Design Planning](#6wireframing-design-planning)  
-7. [Data Preparation & Cleaning Power Query Editor](#7data-preparation-cleaning-power-query-editor)  
-8. [Data Modeling Power Pivot & Relationships](#8data-modeling-power-pivot-relationships)  
-9. [KPI Calculations DAX Measures](#9kpi-calculations-dax-measures)  
-10. [Pivot Table Analysis](#10pivot-table-analysis)  
-11. [Detailed Insights](#11detailed-insights)  
-12. [Profitability Recommendations](#12profitability-recommendations)  
-13. [Conclusion](#13conclusion)  
+- [Introduction](#introduction)  
+- [Dashboard Overview](#dashboard-overview)  
+- [Business Problem](#business-problem)  
+- [Objectives](#objectives)  
+- [Tools & Technologies Used](#tools--technologies-used)  
+- [Wireframing & Design Planning](#wireframing--design-planning)  
+- [Data Preparation & Cleaning (Power Query Editor)](#data-preparation--cleaning-power-query-editor)  
+- [Data Modeling (Power Pivot & Relationships)](#data-modeling-power-pivot--relationships)  
+- [KPI Calculations (DAX Measures)](#kpi-calculations-dax-measures)  
+- [Pivot Table Analysis](#pivot-table-analysis)  
+- [Detailed Insights](#detailed-insights)  
+- [Profitability Recommendations](#profitability-recommendations)  
+- [Conclusion](#conclusion)  
+
 
 ---
 
-##  Introduction
+## Introduction
 
 The E-Commerce industry generates vast amounts of data across transactions, customers, suppliers, and stores. To remain competitive, businesses need to track key performance indicators (KPIs), understand customer behavior, and identify growth opportunities.
 
@@ -34,6 +35,7 @@ The dashboard delivers a view of sales performance by consolidating multiple dat
 ---
 
 ##  Business Problem
+
 The company had fragmented sales data across multiple dimensions (fact tables, product details, stores, customers, time, and transactions). Without a consolidated system, management lacked visibility into:
 - Which products or categories drive the most profit.
 - Which suppliers and stores perform best.
@@ -43,6 +45,7 @@ The company had fragmented sales data across multiple dimensions (fact tables, p
 ---
 
 ##  Objectives
+
 - Integrate multiple datasets into a clean, unified model.  
 - Automate data transformation using **Power Query**.  
 - Build relationships between fact and dimension tables.  
@@ -53,6 +56,7 @@ The company had fragmented sales data across multiple dimensions (fact tables, p
 ---
 
 ## Tools & Technologies Used
+
 - **Microsoft Excel**  
    - Power Query Editor (data preparation)  
    - Power Pivot (data modeling & measures)  
@@ -63,6 +67,7 @@ The company had fragmented sales data across multiple dimensions (fact tables, p
 ---
 
 ##  Wireframing & Design Planning
+
 Before building the dashboard, I designed a **wireframe in PowerPoint** to map out:
 - Placement of KPIs at the top (Revenue, Quantity, Customers).  
 - Visuals for trends (line charts), comparisons (bar charts), and breakdowns (donut charts).  
@@ -75,6 +80,7 @@ This step ensured a logical layout and client-focused storytelling.
 ---
 
 ##  Data Preparation & Cleaning (Power Query Editor)
+
 Steps taken to clean and prepare the data:
 1. Imported datasets: **Fact Table, Item Dimension, Store Dimension, Time Dimension, Transaction Dimension, Customer Dimension**.  
 2. Replaced all lowercase words with **Proper Case** for readability.  
@@ -86,6 +92,7 @@ Steps taken to clean and prepare the data:
 ---
 
 ##  Data Modeling (Power Pivot & Relationships)
+
 - Opened **Power Pivot → Manage** to build relationships.  
 - Linked the **Fact Table** to dimension tables (Star Schema).  
 - Ensured proper joins (e.g., DateID, CustomerID, ProductID).  
@@ -95,6 +102,7 @@ Steps taken to clean and prepare the data:
 ---
 
 ##  KPI Calculations (DAX Measures)
+
 I created the following **DAX measures** in the Blank Query:
 
 **Core KPIs:**
@@ -116,6 +124,7 @@ All YoY measures were **formatted as percentages** using **Custom Formatting** f
 ---
 
 ##  Pivot Table Analysis
+
 Two additional Pivot Tables were created for deeper analysis:
 1. **Product & Category Analysis** – Identifying top-performing products and categories by revenue.  
 2. **Customer & Supplier Analysis** – Ranking top customers and suppliers by contribution.  
@@ -126,6 +135,7 @@ Two additional Pivot Tables were created for deeper analysis:
 ---
 
 ##  Detailed Insights
+
 Key findings from the dashboard:
 - Total revenue reached **$105M across 6M units**.  
 - **Energy beverages and healthy food categories** drive the highest sales.  
@@ -137,6 +147,7 @@ Key findings from the dashboard:
 ---
 
 ## Profitability Recommendations
+
 1. **Promote Mobile Payments** – Introduce discounts to increase adoption, reducing transaction costs.  
 2. **Expand High-Demand Categories** – Focus on beverages and health-related products.  
 3. **Supplier Optimization** – Strengthen contracts with top suppliers to secure better margins.  
@@ -147,6 +158,7 @@ Key findings from the dashboard:
 ---
 
 ##  Conclusion
+
 This project demonstrates how **Excel (Power Query + Power Pivot + Pivot Tables)** can transform raw, disconnected datasets into a **powerful dashboard for profitability and growth strategies**.
 
 
