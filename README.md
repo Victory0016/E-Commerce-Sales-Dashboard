@@ -29,8 +29,9 @@ This project demonstrates how I built a **comprehensive E-Commerce Sales Dashboa
 ##  Dashboard Overview
 
 The dashboard delivers a view of sales performance by consolidating multiple datasets into an interactive report. It highlights:
-  <img width="1353" height="673" alt="Screenshot 2025-09-25 195357" src="https://github.com/user-attachments/assets/26081623-04a7-4273-9e68-34946673d1ad" />
-  <img width="1344" height="665" alt="Screenshot 2025-09-25 195441" src="https://github.com/user-attachments/assets/01d4528c-93a5-4cfc-ae4f-4fdf73ec35dd" />
+  <img width="1353" height="684" alt="Screenshot 2025-10-05 182528" src="https://github.com/user-attachments/assets/9f3e4b1e-9ca7-453f-8ef0-e0bb98953c87" />
+  <img width="1342" height="685" alt="Screenshot 2025-10-05 182830" src="https://github.com/user-attachments/assets/a3747abf-53ec-41b8-b386-b937a32df924" />
+
 
 ---
 
